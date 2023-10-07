@@ -1,0 +1,94 @@
+1. List out the features of HTML5.
+
+Ans: *Semantics: HTML5 introduces new semantic elements (e.g., <header>,<nav>,<section>) to improve webpage structure and make it more understandable for both developers and browsers.
+
+     *Multimedia Support: HTML5 includes native support for audio, video, and interactive graphics, reducing the need for third-party plugins like Flash and enhancing multimedia capabilities directly within web browsers.
+
+     *Improved Forms: HTML5 offers enhanced form input types (e.g., <input type="email">, <input type="date">) and attributes, streamlining data entry and validation, improving user experience, and reducing reliance on JavaScript.
+
+     *Local Storage: HTML5 provides APIs (e.g., localStorage) for client-side storage, enabling web applications to store data locally on the user's device, enhancing performance and offline functionality.
+
+     *Responsive Design: HTML5 supports responsive web design through features like media queries and viewport settings, allowing developers to create websites that adapt and display optimally on various devices and screen sizes
+     
+     *Offline Web Applications: HTML5 enables the creation of web applications that can function offline through the use of the Application Cache (AppCache) and Local Storage, allowing users to access content even without an internet connection.
+
+2. What are HTML Entities. List out 5 commonly used HTML entities.
+
+Ans: HTML entities are special codes used to display reserved characters or symbols in HTML documents.
+
+     *Five commonly used HTML entities.
+
+     &lt - Less-than sign (<)     
+     Used to display the less-than symbol (<) without starting an HTML tag.
+
+     &gt - Greater-than sign (>)
+     Used to display the greater-than symbol (>) without ending an HTML tag.
+
+     &amp - Ampersand (&)
+     Used to display the ampersand symbol (&) without being interpreted as the start of an entity.
+
+     &quot - Double quotation mark (")
+     Used to display double quotation marks (") without ending an HTML attribute.
+
+     &copy - Copyright symbol (©)
+     Used to display the copyright symbol (©).
+
+3. What is web accessibility? List some of the assistive devices which play a major role in providing accessibility.
+
+Ans: Web accessibility refers to the design and development of websites, web applications, and digital content in a way that ensures equal access and usability for people with disabilities.
+     
+     Some of the assistive devices which play a major role in providing accessibility.
+
+     *Screen Readers: Software programs that read aloud the content of a web page, enabling people with visual impairments or reading difficulties to access and navigate web content. Examples include JAWS, NVDA, and VoiceOver.
+
+     *Screen Magnifiers: Tools that enlarge portions of the screen, making content more readable for individuals with low vision or visual impairments. These tools help in reading text and viewing details.
+
+     *Braille Displays: Devices that convert digital text into Braille, allowing individuals who are blind to read and interact with web content using the Braille system.
+
+     *Speech Recognition Software: Tools that enable users to control their computer and navigate the web using voice commands, providing accessibility for people with mobility impairments or those who have difficulty using a keyboard or mouse. Dragon NaturallySpeaking is an example.
+     
+     *Text-to-Speech (TTS) Software: Tools that convert written text into spoken words, supporting individuals with reading difficulties or cognitive impairments.
+
+4. List any 3 ways which helps us in mproving accessibility of HTML.
+
+Ans: 1.Semantic HTML Markup: Utilize semantic HTML elements like <nav>, <article>, <section>, <header>, and <footer> to provide meaningful structure and context to your content. Semantic markup aids assistive technologies in understanding the content and enhances overall accessibility.
+
+     2.Use of ARIA (Accessible Rich Internet Applications) attributes: Implement ARIA attributes to enhance accessibility for interactive elements, custom widgets, and dynamic content.      
+
+     3.Alt Text for Images: Always include descriptive and meaningful alternative text (alt attribute) for images using the <img> tag. Alt text provides essential information to individuals using screen readers or in cases where images cannot be displayed, ensuring content is accessible to all users.
+
+5. Write a short note on tab index.
+
+Ans: The tabindex attribute in HTML allows developers to control the keyboard navigation order on a webpage.
+
+     *Usage: The tabindex attribute is assigned a numeric value, defining the order in which the element will be focused when the "Tab" key is pressed. A lower value means it will be focused first.
+
+     *Custom Navigation: Developers can assign specific elements a tabindex to customize the navigation flow, ensuring critical areas are accessed first or organizing the keyboard navigation in a logical manner.
+
+     *Accessibility: Proper usage of tabindex can enhance web accessibility, especially for users with disabilities who rely on keyboard navigation. It allows for a more intuitive and efficient browsing experience.
+
+6. List any 5 semantic tags in HTML along with thier descriptions.
+
+Ans: header: Represents the introductory or navigational section of a webpage. Typically contains headings, logos, navigation menus, and other introductory content.
+    
+     nav: Defines a section of the page that contains navigation links. It typically contains a list of links to other parts of the website or related pages.
+    
+     article: Represents a self-contained, independent piece of content that can stand alone. It could be a blog post, news article, forum post, or a comment.
+    
+     section: Defines a thematic grouping of content within a document. It typically represents a generic section of content that can be styled or formatted as a unit.
+    
+     footer: Represents the closing or concluding section of a webpage. Typically includes information like copyright, contact details, or links to related resources.
+
+7. What are the benefits of using semantic tags in our webpage.
+
+Ans: *Clarity and Readability: Semantic tags enhance code structure, making it clear and easily understandable for developers and other stakeholders.
+
+     *Improved Accessibility: Semantic tags provide a clear structure to assistive technologies, aiding users with disabilities in understanding and navigating the content.
+
+     *SEO Optimization: Search engines better interpret and index content, resulting in improved search engine rankings and visibility for the webpage.
+
+     *Future-Proofing: Semantic tags ensure compatibility and consistency across different devices and platforms, supporting future updates and technologies.
+
+     *Efficient Development: Utilizing semantic tags streamlines development by promoting standardized coding practices and facilitating easier maintenance and updates.
+
+ 
